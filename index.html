@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="/img/logo.jpg">
+    <form action="#" method="#">
+        <div class="main_form">
+            <fieldset>
+            <legend>Общая информация</legend>
+            <span style="padding-right: 10px;">Фамилия</span><input type="text" name="lastname" id="lastname" placeholder="Иванов">
+            <label for="lastname"></label><br>
+            <span style="padding-right: 43.5px;">Имя</span><input type="text" name="firstname" id="firstname" placeholder="Иван">
+            <label for="firstname"></label><br>
+            <span style="padding-right: 9px;">Отчество</span><input type="text" name="patronymic" id="patronymic" placeholder="Иванович">
+            <label for="patronymic"></label><br>
+            <span style="padding-right: 37px;">email</span><input type="email" name="email" id="email" placeholder="mail@mail.ru">
+            <label for="surname"></label><br>
+            </fieldset>
+        </div>
+        <br>
+        <div class="sex_form">
+            <fieldset>
+            <legend>Пол</legend>
+            <input type="radio" name="sex" id="male" checked>
+            <label for="male">М</label>
+            <input type="radio" name="sex" id="female">
+            <label for="female">Ж</label>
+            </fieldset>
+        </div>
+        <br>
+        <div class="hobby_form">
+            <fieldset>
+            <legend>Хобби</legend>
+            <input type="checkbox" name="hobby" id="drawing">
+            <label for="drawing">Рисование</label>
+            <input type="checkbox" name="hobby" id="reading">
+            <label for="reading">Чтение</label>
+            <input type="checkbox" name="hobby" id="knitting">
+            <label for="knitting">Вязание</label>
+            <input type="checkbox" name="hobby" id="cooking">
+            <label for="cooking">Кулинария</label>
+            </fieldset>
+        </div>
+        <br>
+        <div class="buttons">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </div>
+
+    </form>
+</body>
+</html>
